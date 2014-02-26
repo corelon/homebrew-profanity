@@ -32,7 +32,7 @@ class Libstrophe < Formula
   end
 
   def git_cache
-    @downloader.cached_location
+    downloader.cached_location
   end
 
 end
